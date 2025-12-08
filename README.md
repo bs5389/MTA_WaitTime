@@ -3,7 +3,9 @@ URPL 1620 Final Project about MTA Wait time by Route
 Brian Scannell: Subway Upgrade Prioritization
 
 Steps Taken in QGIS:
+
 Base Borough Polygon Layer
+
 Subway Routes
 Pulled in Subway Route Line Layer.
 Split each route into a separate layer. 
@@ -11,6 +13,7 @@ Used summary statistics to calculate length and wrote an expression to convert t
 Exported as CSV for R calculation.
 
 Subway Zip Code
+
 Pulled in NYC Zip Code Polygon Layer.
 Joined with ASC 2023 Median Family Income Data.
 Run Expression in Attribute Table to find mean income for overall route.

@@ -1,0 +1,25 @@
+route_id,route_shor,route_long,group,length,length_mile
+FS,S,Franklin Avenue Shuttle,S,7159.497,1.355965341
+GS,S,42 St Shuttle,S,2293.392,0.434354545
+1,1,Broadway - 7 Avenue Local,123,77385.042,14.65625795
+3,3,7 Avenue Express,123,95921.26,18.1669053
+2,2,7 Avenue Express,123,134113.648,25.40031212
+5,5,Lexington Avenue Express,456,147156.389,27.87052822
+4,4,Lexington Avenue Express,456,105856.423,20.04856496
+7,7,Flushing Express/Local,7,54381.968,10.29961515
+6,6,Lexington Avenue Express/Local,456,79083.532,14.97794167
+A,A,8 Avenue Express,ACE,183969.499,34.84270814
+C,C,8 Avenue Local,ACE,98214.629,18.60125549
+B,B,6 Avenue Express,BDFM,127317.57,24.11317614
+E,E,8 Avenue Local,ACE,81745.712,15.48214242
+D,D,6 Avenue Express,BDFM,135354.787,25.63537633
+G,G,Brooklyn-Queens Crosstown,G,55462.052,10.50417652
+F,F,Queens Blvd Express/ 6 Av Local,BDFM,143727.974,27.2212072
+H,S,Rockaway Park Shuttle,S,14901.075,2.822173295
+J,J Z,Nassau St Local/Express,JZ,70323.102,13.31876932
+M,M,Queens Blvd-6th Ave/ Myrtle Local,BDFM,96105.908,18.20187652
+L,L,14 St-Canarsie Local,L,53486.006,10.12992538
+N,N,Broadway Express,NQR,107042.637,20.2732267
+Q,Q,Broadway Express,NQR,105709.659,20.02076875
+R,R,Broadway Local,NQR,114091.594,21.60825644
+SI,SIR,Staten Island Railway,SIR,75700.886,14.33728902

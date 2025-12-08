@@ -30,3 +30,5 @@ Created Image based “Superlatives” Table using Data from R and Subway Logos.
 
 Steps Taken in Figma:
 Cleaned Maps, Legends, Added Explanatory Descriptions.
+
+All three CSVs needed to run the code have been included!

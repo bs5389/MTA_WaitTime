@@ -9,7 +9,7 @@ Base Borough Polygon Layer
 Subway Routes
 Pulled in Subway Route Line Layer.
 Split each route into a separate layer. 
-Used summary statistics to calculate length and wrote an expression to convert to miles.
+Used summary statistics to calculate length and wrote an expression to convert feet to miles.
 Exported as CSV for R calculation.
 
 Subway Zip Code
@@ -17,7 +17,7 @@ Subway Zip Code
 Pulled in NYC Zip Code Polygon Layer.
 Joined with ASC 2023 Median Family Income Data.
 Run Expression in Attribute Table to find mean income for overall route.
-Selected by Attribute where Route Line intersected with Zip Code Polygon ro create Route Specific Zip Code Layers.
+Selected by Attribute where Route Line intersected with Zip Code Polygon to create Route Specific Zip Code Layers.
 Dissolved Route Specific ZipCode into single polygon.
 
 
@@ -25,6 +25,8 @@ Steps Taken in R:
 
 Read in two Wait-Time metric files.
 Read in length by Zip Code from QGIS.
+Cleaned Data, isolated column with group by and summarize. Left Join to add length, Mutate to add rank, 
+Created ggplot dumbbell chart, stylized with color, size, text.
 Ran simple regression with three variables to test significance.
 
 
@@ -46,3 +48,5 @@ Cleaned Maps, Legends, Added Explanatory Descriptions.
 All three CSVs needed to run the code have been included!
 
 Route Line Data was pulled from 2016 NYU Data Repository: https://geo.nyu.edu/catalog/nyu-2451-34758
+
+The Zipped Project Folder is included as well! Labelled FINAL BLOG
